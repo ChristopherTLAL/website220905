@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+  <head>
+    <!-- Mobile Specific Meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png" />
+    <!-- Author Meta -->
+    <meta name="author" content="Shijie" />
+    <!-- Meta Description -->
+    <meta name="description" content="" />
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="" />
+    <!-- meta character set -->
+    <meta charset="UTF-8" />
+    <!-- Site Title -->
+    <title>Can a language model achieve human-like accuracy on word prediction?</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Playfair+Display:700,700i"
+      rel="stylesheet"
+    />
+    <!--
+			CSS
+			============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!--================ Start Header Area =================-->
+    <header class="header-area">
+      <div class="container">
+        <div class="header-wrap">
+          <div
+            class="header-top d-flex justify-content-between align-items-lg-center navbar-expand-lg"
+          >
+            <div class="col menu-left">
+              <a class="active" href="index.html">Home</a>
+              <a href="/pdf/CV220902.pdf">CV</a>
+              <a href="archive.html">Archive</a>
+            </div>
+            <div class="col-5 text-lg-center mt-2 mt-lg-0">
+              <span class="logo-outer">
+                <span class="logo-inner">
+                  <a href="index.html"
+                    ><img class="mx-auto" src="img/logo.png" alt=""
+                  /></a>
+                </span>
+              </span>
+            </div>
+            <nav class="col navbar navbar-expand-lg justify-content-end">
+              <!-- Toggler/collapsibe Button -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapsibleNavbar"
+              >
+                <span class="lnr lnr-menu"></span>
+              </button>
+
+              <!-- Navbar links -->
+              <div
+                class="collapse navbar-collapse menu-right"
+                id="collapsibleNavbar"
+              >
+                <ul class="navbar-nav justify-content-center w-100">
+                  <li class="nav-item hide-lg">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item hide-lg">
+                    <a class="nav-link" href="category.html">Category</a>
+                  </li>
+                  <!-- Dropdown -->
+                  <!-- <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbardrop"
+                      data-toggle="dropdown"
+                    >
+                      Pages
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="elements.html">Elements</a>
+                    </div>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://art.linguist.top">Arts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--================ End Header Area =================-->
+        <!--================Blog Area =================-->
+        <section class="blog_area section-gap single-post-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+       					<div class="main_blog_details">
+       						<img class="img-fluid" src="img/blog/pexels-pavel-danilyuk-8438975.jpg" alt="">
+       						<a href="#"><h4>
+Can a language model achieve human-like accuracy on word prediction?<br /> </h4></a>
+   						  <div class="user_details">
+       							
+       							<div class="float-left mt-sm-0 mt-3">
+       								<div class="media">
+       									<div class="media-body">
+       										<p>Nov 28, 2021</p>
+       									</div>
+       									
+       								</div>
+   							</div>
+       						</div>
+   		                  <ol>
+   		                    <li>Introduction</li>
+	                      </ol>
+   		                  <p>The statement to be discussed in this article is that &lsquo;with enough corpus data a language model can achieve human-like accuracy in word prediction&rsquo;. In the field of computational linguistics, word prediction of the language model is the calculation of the likelihood of a certain word given the existence of the prior word(s). It is widely used in applications such as spelling/grammar checking, machine translation, and speech-to-text recognition. Such a model could benefit from large linguistic data that positively correlate with the accuracy of word prediction. However, it would be necessary to reconsider whether &lsquo;enough&rsquo; corpus data could lead to &lsquo;human-like&rsquo; proficiency. To measure human-like accuracy, these models are normally compared with human beings using different test data, such as complicated language tasks. Another aspect of human-like accuracy is the precise imitation of a human-like language processing mechanism. In both senses, I will discuss how current language models are limited in reaching human-like accuracy and elaborate on whether these failures could be addressed with sufficient data.</p>
+                          <ol>
+                            <li>Data Sparsity</li>
+                          </ol>
+                          <p>Data sparsity (i.e., perfectly acceptable words were not included in the corpus data) is the first issue that prevents the language model from achieving human-like proficiency. In simple (unsmoothed) n-gram models, the increase in corpus data could, to some extent, enhance accuracy because it reduces the risk of encountering unknown tokens. For instance, by comparing the predictive performances of the n-gram in 21 conditions (i.e., 3 n-gram orders from unigram to trigram × 7 training datasets with different corpus sizes), Lesher et al. (1999) identified a general improvement in accuracy with more corpus data. For the deep learning neural model, the size of it also positively correlates with the accuracy in word prediction (Kaplan et al., 2020), with some recent models (e.g., Liu et al., 2019) exceeded the non-expert human prediction of specific language tasks (e.g., GLUE, Wang et al., 2020). <br>
+                            Nevertheless, the problem of data sparsity will never be adequately addressed by simply adding extra data without modifying the model, because human creativity will motivate the constant evolution of language (e.g., to formulate new expressions based on morphological rules and beyond). In this regard, however large the corpus is, the n-gram matrix will contain some &lsquo;zero-probability&rsquo; cases that may occur in human communication. To address this, some &lsquo;smoothing&rsquo; methods have been proposed to redistribute the data structure by sharing some probability of higher counts with zero-probability ones (Jurafsky &amp; Martin, 2009). After interpolation, it is claimed that the language model can better diminish perplexity and predict unfamiliar (e.g. out-of-domain) language tests (Shareghi et al., 2016). The neural model also attempted to construct a semantic-related vector with associated lexicons mapped closer, which could better account for unseen nodes (Arisoy et al., 2012). Even with these smoothing techniques, however, the language models still fail in complicated language tasks such as the LAMBADA task which necessitates the comprehension of the broad context (Paperno et al., 2016).</p>
+                          <ol>
+                            <li>Context</li>
+                          </ol>
+                          <p>Therefore, the role of context is another important factor affecting the language model in achieving human-like performance, regardless of the size of the corpus data. One solution to the context-related failure of the n-gram model is to enlarge the n-token from unigrams to bigrams and beyond. It was found that higher-order n-grams (e.g., 5-grams) enjoy a higher predictive power, but this effect is not significant after the 6-grams model (with .02 bits improvement; Goodman, 2001). Based on this finding, the language model might be particularly problematic in sentences with a dependency structure, which means that the target word can only be predicted based on information far from it (Jurafsky &amp; Martin, 2009). This requires the model to have a higher level of knowledge of the syntactic features of the language to imitate human processing better.<br>
+                                        In addition to the long-dependency issue, the LAMBADA test reveals the limitation of language models in the awareness of the broader discourse (Paperno et al., 2016). In such a test, the word to be predicted is challenging to guess based on only one sentence but easy to guess if the whole context is available. For instance, in the sentence &lsquo;Do you honestly think that I would want you to have a ___?&rsquo;, prior knowledge of discourse is necessary to complete it. In this regard, n-gram models can only achieve an accuracy level of approximately .1%. In contrast to collecting sufficient data, the solution lies in the substantial adjustment of the model. The first possible refinement is caching which assumes that words that emerge in adjacent sentences are more likely to appear again (Soutner et al., 2012). However, the cache-based n-gram still fails in the LAMBADA test without significantly enhancing the accuracy of word prediction (see Table 1 in Paperno et al., 2016 for the comparison). One further step is the introduction of an attention-based mechanism which highlights the fact that some words in the context have a stronger relationship with the target word than others (Mei et al., 2016). These techniques help the model better imitate human-like language processing, which cannot be accomplished by simply adding more corpus data.</p>
+                          <ol>
+                            <li>World Knowledge and Human Cognition</li>
+                          </ol>
+                          <p>However, even if a language model perfectly accounts for a broader context, it will still fail to achieve human-like accuracy when extralinguistic world knowledge is required (Mahesh &amp; Nirenburg, 1995). GPT-3 represents a state-of-art model trained based on approximately a trillion words, which shows high accuracy in the LAMBADA test with long word dependency and contextual constraints (86.4% for the Few-Shot model; <a name="_Hlk89622613"></a>Brown et al., 2020) . Even so, Brown et al. (2020) acknowledged that GPT-3 cannot formulate coherent and logical arguments in generating passages, which is one of the core qualities of human cognition. Marcus and Davis (2020) further pointed out that GPT-3 is somewhat limited in processing extralinguistic knowledge such as psychological reasoning or social reasoning. For example, in the following task, GPT-3 inclined towards the bathing suit rather than the more socially appropriate one.<br>
+                            <em>&lsquo;You are a defense lawyer ... suit pants are badly stained. However, your bathing suit is clean and very stylish ... it&rsquo;s expensive French couture … You decide that you should wear __&rsquo;</em><br>
+                            Additionally, for domain-specific applications, rather than increasing the data size, the language model should be limited or primed based on an extralinguistic scenario. In the field of eHealth, although GPT-3 also presents a relatively high accuracy in word prediction, it is suggested that some few-shot training would be necessary to avoid destructive, discriminating, or unsuitable expressions in health-related situations, which humans would do due to empathic reasons (Korngiebel &amp; Mooney, 2021). The language models, therefore, should attempt to imitate the human-like responses in specific domains but also the socio-psychological attributes governing the discourse.<br>
+                            The other vital issue is that world knowledge can sometimes (or even always) be diverse and evolving, especially in some fluctuating areas. After conducting sentiment analysis on the word &lsquo;Donald Trump&rsquo; using the Tencent NLP API (see Appendix for the code), it was found that this proper noun was coded as &lsquo;negative&rsquo; (Negativity = .523) which is prone to change along with political manipulations. Although speedy data collection can address this issue, it is still essential to examine how a language model imitates the human-like processing of old and new information. This is because there would always be fewer new tokens than old ones, possibly leading to reliance on the probability calculated by the dominant old information. A more refined mechanism for allocating different sensitivities to large linguistic data is required (Sankar et al., 2019).<br>
+                            Besides, when speaker-audience relationships matter in the conversation, corpus-based register analysis emphasises that the current language model also encounters difficulties (Biber &amp; Conrad, 2019). The situational variable will impose additional constraints on human language processing such as politeness, information density, and the use of profanity (Crocker et al., 2016). Therefore, in such applications, the accuracy of word prediction should be enhanced based on parameter settings or semantic priming, in addition to a large dataset.<br>
+                            The above-mentioned world-knowledge-related issues are inherently caused by reliance on word-word relationships (Marcus &amp; Davis, 2020) and inadequacy in top-down language processing. Although the clustering-algorithm-based method (Wu, 2014) and cross-modular models (e.g. picture-word interaction in You et al., 2016) have attempted to overcome this limitation, modifications to the language model are far from complete. Moreover, as discussed, most of the aforementioned failures in word prediction can be confronted with either the adjustment of the model training method or the integration of more extralinguistic processing. However, in the following paragraphs, I will examine another issue regarding the data-driven model which is more challenging to tackle; that is, the collected data sometimes cannot support language processing.</p>
+                          <ol>
+                            <li>The gap between frequency-based data and language processing</li>
+                          </ol>
+                          <p>The first phenomenon to be discussed in this section is the use of taboo language. The taboo or forbidden language echoes the statement that &lsquo;rules are made to be broken&rsquo;. In this regard, people utilise forbidden expressions because the exclusion of taboos is inherently one of the social norms to be breached (Allan &amp; Burridge, 2006; Steiner, 2013). Therefore, if some taboos are strictly forbidden, they will be employed (1) less frequently in daily life and (2) more frequently when trying to achieve a specific social function. In corpus data, this means that the less frequent taboo should sometimes enjoy a higher priority in word prediction. Some preliminary efforts have been made to predict taboos in anonymous emotional disclosures (Paul et al., 2021); however, the domain-general development of the language model is still difficult. In contrast to expanding the amount of data, it is essential to reflect on the circumstances under which human beings intentionally break social norms (but ethics-related issues matter here).<br>
+                                        Second, the active adaptation of habitual collocations is another problem that must be addressed, which is also one of the reasons for data sparsity. For probability-based models, the typical co-occurrence of words is the core evidence for word prediction, which prioritises the formation of idioms. However, for non-compositional idioms (e.g., kick the bucket), human beings might still transform them into new expressions (e.g., bucket list; see Titone &amp; Connine, 1999 for a discussion on compositionality). Some scholars have developed latent semantic models to account for multi-word expressions (Katz &amp; Giesbrecht, 2006; King &amp; Cook, 2018), though it is rare to study whether novel expressions created based on these phrases can be accurately predicted. This could be addressed by incorporating a more comprehensive mechanism of the relationship between symbolic and statistical features rather than the simple accumulation of data (Sag et al., 2002).<br>
+                            The final problem is the multilingual norm of the current world which is rarely considered in language models. Although sufficient data could still bring about reasonable accuracy, multilingual language tasks sometimes require meta-linguistic awareness in processing which is independent of corpus size to some extent. For instance, in computer-aided translation and interpretation, some words can be left untranslated according to the audience's background (Vogler et al., 2019), which requires integration of higher-level knowledge. Similarly, although the translation of complicated tasks (e.g., humour translation) has been considered (Chiaro, 2020), the application of NLP on the tasks requiring meta-linguistic awareness (e.g., bilingual puns) was &lsquo;given no coverage&rsquo; (O&rsquo;Reilly, 2019).</p>
+                          <ol>
+                            <li>Conclusion</li>
+                          </ol>
+                          <p>The present essay reviewed the limitations of current language models, focusing on the role of corpus data. It is argued that, <a name="_Hlk113192984">although &lsquo;enough data&rsquo; could lead to higher accuracy, &lsquo;human-like&rsquo; performance in word prediction requires a comprehensive modification of the underlying mechanism of the language model rather than only enlarging the size of the corpus. </a>Some possible solutions to the current failure were discussed, such as attention-based training and latent semantic neural models, calling for future efforts in this field. Additionally, I examined more challenging aspects, such as the need to incorporate extralinguistic knowledge, imitate human-like socio-psychological attributes, and understand meta-linguistic elements. It again leads to the conclusion that, besides &lsquo;enough data&rsquo;, many other factors are necessary for achieving human-like accuracy in word prediction.</p>
+                          <ol>
+                            <li>References</li>
+                          </ol>
+                          <p>Allan, K., &amp; Burridge, K. (2006). <em>Forbidden words: Taboo and the censoring of language</em>. Cambridge University Press.<br>
+                            Arisoy, E., Sainath, T. N., Kingsbury, B., &amp; Ramabhadran, B. (2012). Deep Neural Network Language Models. <em>Proceedings of the NAACL-HLT 2012 Workshop: Will We Ever Really Replace the N-Gram Model? On the Future of Language Modeling for HLT</em>, 20–28. https://aclanthology.org/W12-2703<br>
+                            Biber, D., &amp; Conrad, S. (2019). <em>Register, genre, and style</em>. Cambridge University Press.<br>
+                            Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., … Amodei, D. (2020). Language Models are Few-Shot Learners. <em>ArXiv:2005.14165 [Cs]</em>. http://arxiv.org/abs/2005.14165<br>
+                            Chiaro, D. (2020). Humour translation in the digital age. In <em>Humour Translation in the Age of Multimedia</em>. Routledge.<br>
+                            Crocker, M. W., Demberg, V., &amp; Teich, E. (2016). Information Density and Linguistic Encoding (IDeaL). <em>KI - Künstliche Intelligenz</em>, <em>30</em>(1), 77–81. https://doi.org/10.1007/s13218-015-0391-y<br>
+                            Goodman, J. T. (2001). A bit of progress in language modeling. <em>Computer Speech &amp; Language</em>, <em>15</em>(4), 403–434. https://doi.org/10.1006/csla.2001.0174<br>
+                            Jurafsky, D., &amp; Martin, J. H. (2009). <em>Speech and language processing: An introduction to natural language processing, computational linguistics, and speech recognition</em> (2nd ed). Pearson Prentice Hall.<br>
+                            Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., Gray, S., Radford, A., Wu, J., &amp; Amodei, D. (2020). Scaling Laws for Neural Language Models. <em>ArXiv:2001.08361 [Cs, Stat]</em>. http://arxiv.org/abs/2001.08361<br>
+                            Katz, G., &amp; Giesbrecht, E. (2006). Automatic identification of non-compositional multi-word expressions using latent semantic analysis. <em>Proceedings of the Workshop on Multiword Expressions Identifying and Exploiting Underlying Properties - MWE &rsquo;06</em>, 12. https://doi.org/10.3115/1613692.1613696<br>
+                            King, M., &amp; Cook, P. (2018). Leveraging distributed representations and lexico-syntactic fixedness for token-level prediction of the idiomaticity of English verb-noun combinations. <em>Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</em>, 345–350. https://doi.org/10.18653/v1/P18-2055<br>
+                            Korngiebel, D. M., &amp; Mooney, S. D. (2021). Considering the possibilities and pitfalls of Generative Pre-trained Transformer 3 (GPT-3) in healthcare delivery. <em>Npj Digital Medicine</em>, <em>4</em>(1), 93. https://doi.org/10.1038/s41746-021-00464-x<br>
+                            Lesher, G. W., Moulton, B. J., &amp; Higginbotham, D. J. (1999). <em>Effects Of Ngram Order And Training Text Size On Word Prediction</em>. 52–54.<br>
+                            Liu, X., He, P., Chen, W., &amp; Gao, J. (2019). Multi-Task Deep Neural Networks for Natural Language Understanding. <em>ArXiv:1901.11504 [Cs]</em>. http://arxiv.org/abs/1901.11504<br>
+                            Mahesh, K., &amp; Nirenburg, S. (1995). A Situated Ontology for Practical NLP. <em>In Proceedings of the Workshop on Basic Ontological Issues in Knowledge Sharing, International Joint Conference on Artificial Intelligence (IJCAI-95</em>.<br>
+                            Marcus, G., &amp; Davis, E. (2020). GPT-3, Bloviator: OpenAI&rsquo;s language generator has no idea what it&rsquo;s talking about. <em>MIT Technology Review</em>. https://www.technologyreview.com/2020/08/22/1007539/gpt3-openai-language-generator-artificial-intelligence-ai-opinion/<br>
+                            Mei, H., Bansal, M., &amp; Walter, M. R. (2016). Coherent Dialogue with Attention-based Language Models. <em>ArXiv:1611.06997 [Cs]</em>. http://arxiv.org/abs/1611.06997<br>
+                            O&rsquo;Reilly, D. (2019). Veale, T., Shutova, E., Beigman Klebanov, B. (2016). Metaphor: A Computational Perspective. <em>Metaphor and the Social World</em>, <em>9</em>(1), 131–138. https://doi.org/10.1075/msw.18033.ore<br>
+                            Paperno, D., Kruszewski, G., Lazaridou, A., Pham, Q. N., Bernardi, R., Pezzelle, S., Baroni, M., Boleda, G., &amp; Fernández, R. (2016). The LAMBADA dataset: Word prediction requiring a broad discourse context. <em>ArXiv:1606.06031 [Cs]</em>. http://arxiv.org/abs/1606.06031<br>
+                            Paul, A., Liao, W., Choudhary, A., &amp; Agrawal, A. (2021). Harnessing Psycho-lingual and Crowd-Sourced Dictionaries for Predicting Taboos in Written Emotional Disclosure in Anonymous Confession Boards. <em>Journal of Healthcare Informatics Research</em>, 1–23.<br>
+                            Sag, I. A., Baldwin, T., Bond, F., Copestake, A., &amp; Flickinger, D. (2002). Multiword Expressions: A Pain in the Neck for NLP. In A. Gelbukh (Ed.), <em>Computational Linguistics and Intelligent Text Processing</em> (pp. 1–15). Springer. https://doi.org/10.1007/3-540-45715-1_1<br>
+                            Sankar, C., Subramanian, S., Pal, C., Chandar, S., &amp; Bengio, Y. (2019). <em>Do Neural Dialog Systems Use the Conversation History Effectively? An Empirical Study</em>. https://arxiv.org/abs/1906.01603v2<br>
+                            Shareghi, E., Cohn, T., &amp; Haffari, G. (2016). Richer Interpolative Smoothing Based on Modified Kneser-Ney Language Modeling. <em>Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing</em>, 944–949. https://doi.org/10.18653/v1/D16-1094<br>
+                            Soutner, D., Loose, Z., Müller, L., &amp; Pražák, A. (2012). Neural Network Language Model with Cache. In P. Sojka, A. Horák, I. Kopeček, &amp; K. Pala (Eds.), <em>Text, Speech and Dialogue</em> (Vol. 7499, pp. 528–534). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-32790-2_64<br>
+                            Steiner, F. (2013). <em>Taboo</em> (Vol. 15). Routledge.<br>
+                            Titone, D. A., &amp; Connine, C. M. (1999). On the compositional and noncompositional nature of idiomatic expressions. <em>Journal of Pragmatics</em>, <em>31</em>(12), 1655–1674. https://doi.org/10.1016/S0378-2166(99)00008-9<br>
+                            Vogler, N., Stewart, C., &amp; Neubig, G. (2019). Lost in Interpretation: Predicting Untranslated Terminology in Simultaneous Interpretation. <em>ArXiv:1904.00930 [Cs]</em>. http://arxiv.org/abs/1904.00930<br>
+                            Wang, A., Pruksachatkun, Y., Nangia, N., Singh, A., Michael, J., Hill, F., Levy, O., &amp; Bowman, S. R. (2020). SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems. <em>ArXiv:1905.00537 [Cs]</em>. http://arxiv.org/abs/1905.00537<br>
+                            Wu, Y.-C. (2014). A top-down information theoretic word clustering algorithm for phrase recognition. <em>Information Sciences</em>, <em>275</em>, 213–225. https://doi.org/10.1016/j.ins.2014.02.033<br>
+                            You, Q., Jin, H., Wang, Z., Fang, C., &amp; Luo, J. (2016). <em>Image Captioning With Semantic Attention</em>. 4651–4659. https://openaccess.thecvf.com/content_cvpr_2016/html/You_Image_Captioning_With_CVPR_2016_paper.html</p>
+                          <p>&nbsp;</p>
+                          <br clear="all">
+                          <ol>
+                            <li>Appendix</li>
+                          </ol>
+                          <p>import json<br>
+                            from tencentcloud.common import credential<br>
+                            from tencentcloud.common.profile.client_profile import ClientProfile<br>
+                            from tencentcloud.common.profile.http_profile import HttpProfile<br>
+                            from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentCloudSDKException<br>
+                            from tencentcloud.nlp.v20190408 import nlp_client, models<br>
+                            try:<br>
+                                cred = credential.Credential(&quot;SecretId&quot;, &quot;SecretKey&quot;)<br>
+                                httpProfile = HttpProfile()<br>
+                                httpProfile.endpoint = &quot;nlp.tencentcloudapi.com&quot;</p>
+                          <p>    clientProfile = ClientProfile()<br>
+                                clientProfile.httpProfile = httpProfile<br>
+                                client = nlp_client.NlpClient(cred, &quot;ap-guangzhou&quot;, clientProfile)</p>
+                          <p>    req = models.SentimentAnalysisRequest()<br>
+                                params = {<br>
+                                    &quot;Text&quot;: &quot;Donald Trump&quot;,<br>
+                                    &quot;Mode&quot;: &quot;3class&quot;<br>
+                                }<br>
+                                req.from_json_string(json.dumps(params))</p>
+                          <p>    resp = client.SentimentAnalysis(req)<br>
+                                print(resp.to_json_string())</p>
+                          <p>except TencentCloudSDKException as err:<br>
+                                print(err) </p>
+                        </div>
+       					
+                        
+                        
+					</div>
+					
+                    <div class="col-lg-4 sidebar-widgets">
+              <div class="widget-wrap">
+				  <div class="single-sidebar-widget instafeed-widget">
+                  <h4 class="instafeed-title">About Me</h4>
+                  <P>I conduct interdisciplinary research and undertake practical projects in linguistics, psychology, multilingualism, and education. My academic publications are primarily about how linguistic experiences influence the development of human beings, with a focus on behavioural inclinations, emotions, diversity (critical literacy), memory, and meta-linguistic awareness. I am also concerned about how universities and other institutes can raise education equity through sustainable projects.</P>
+					<div class="d-flex justify-content-between mt-20">
+                      <div>
+                        <a href="about.html" class="blog-post-btn">
+                           More <span class="ti-arrow-right"></span>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                
+                  <div class="single-sidebar-widget share-widget">
+                    <h4 class="share-title">External Links</h4>
+                    <div class="social-icons mt-20">
+                      <a href="mailto:sw985@cantab.ac.uk">
+                        <span class="ti-email"></span>
+                      </a>
+                      <a href="https://www.linkedin.com/in/shijie-wang-tal/">
+                        <span class="ti-linkedin"></span>
+                      </a>
+                      <a href="https://www.researchgate.net/profile/Shijie-Wang-23">
+                        <span class="ti-book"></span>
+                      </a>
+                      <a href="https://scholar.google.com.hk/citations?hl=en&user=JFb6Sd8AAAAJ">
+                        <span class="ti-google"></span>
+                      </a>
+						<div class="social-icons mt-20">
+                      <a href="https://www.facebook.com/profile.php?id=100009498823154">
+                        <span class="ti-facebook"></span>
+                      </a>
+                      <a href="https://twitter.com/ChristopherTLAL">
+                        <span class="ti-twitter"></span>
+                      </a>
+                      <a href="https://www.instagram.com/shijie_christopher/">
+                        <span class="ti-instagram"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                </div>
+            </div>
+        </section>
+        <!--================Blog Area =================-->
+        
+        <!--================ Start Footer Area =================-->
+  
+	  <!--================ End Footer Area =================-->
+  
+	  <script src="js/vendor/jquery-2.2.4.min.js"></script>
+	  <script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+		integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+		crossorigin="anonymous"
+	  ></script>
+	  <script src="js/vendor/bootstrap.min.js"></script>
+	  <script src="js/owl.carousel.min.js"></script>
+	  <script src="js/jquery.sticky.js"></script>
+	  <script src="js/jquery.tabs.min.js"></script>
+	  <script src="js/parallax.min.js"></script>
+	  <script src="js/jquery.nice-select.min.js"></script>
+	  <script src="js/jquery.ajaxchimp.min.js"></script>
+	  <script src="js/jquery.magnific-popup.min.js"></script>
+	  <script
+		type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"
+	  ></script>
+	  <script src="js/bootstrap-datepicker.js"></script>
+	  <script src="js/main.js"></script>
+	</body>
+  </html>
